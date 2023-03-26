@@ -1,10 +1,10 @@
-import logo from "./logo-white.png";
-import "./App.scss";
-import Hamburger from "./Hamburger";
+import logo from "../logo-white.png";
+import "./Nav.scss";
+import Hamburger from "./hamburger/Hamburger";
 
 function Nav() {
   return (
-    <header className="App-header">
+    <nav>
       <Hamburger className="hamburger" />
       <div className="header-links">
         <div className="left-nav-links">
@@ -19,7 +19,7 @@ function Nav() {
           <a href="/">Signup</a>
         </div>
       </div>
-    </header>
+    </nav>
   );
 }
 

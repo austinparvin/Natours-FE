@@ -1,3 +1,5 @@
+import "./Hamburger.scss";
+
 const Hamburger = ({ className }) => {
   return (
     <div className={className} id="menuToggle">
