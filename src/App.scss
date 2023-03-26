@@ -1,9 +1,20 @@
-.App {
-  text-align: center;
-  display: flex;
+body {
   font-family: 'Lato', sans-serif;
-  padding: 30px;
-  min-height: 100vh;
-  flex-direction: column;
-  
+  color: #777;
+
+  .App {
+    text-align: center;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    padding: 30px;
+    min-height: 100vh;
+    flex-direction: column;
+    
+    .main{
+      background-color: #f7f7f7;
+      padding: 6rem 6rem;
+      flex: 1;
+      position: relative;
+    }
+  }
 }

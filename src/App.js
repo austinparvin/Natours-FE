@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <AllTours />
+      <main className="main">
+        <AllTours />
+      </main>
     </div>
   );
 }
