@@ -58,9 +58,9 @@ const TourCard = ({ tour }) => {
           <span className="card__footer-value">4.5</span>
           <span className="card__footer-text">rating (6)</span>
         </p>
-        <a className="btn btn--green btn--small" href="/">
-          Details
-        </a>
+        <div className="btn btn--green btn--small">
+          <a href="/">Details</a>
+        </div>
       </div>
     </div>
   );
