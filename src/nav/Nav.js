@@ -8,15 +8,23 @@ function Nav() {
       <Hamburger className="hamburger" />
       <div className="header-links">
         <div className="left-nav-links">
-          <a href="/">All Tours</a>
-          <a href="/me">My Tours</a>
+          <a className="header-link" href="/">
+            All Tours
+          </a>
+          <a className="header-link" href="/me">
+            My Tours
+          </a>
         </div>
         <div className="nav-logo">
           <img src={logo} className="logo" alt="Natours logo" />
         </div>
         <div className="right-nav-links">
-          <a href="/login">Login</a>
-          <a href="/signup">Signup</a>
+          <a className="header-link" href="/login">
+            Login
+          </a>
+          <a className="header-link" href="/signup">
+            Signup
+          </a>
         </div>
       </div>
     </nav>

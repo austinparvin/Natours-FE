@@ -113,7 +113,7 @@ const Account = () => {
             <div class="form__group form__photo-upload">
               <img
                 class="form__user-photo"
-                // src="img/users/user-641ae8e30c759d64ac0e0520-1679836732310.jpeg"
+                src="/user-6418485dfef8e0bab2a864af-1679313247700.jpeg"
                 alt="User photo"
               />
               <input

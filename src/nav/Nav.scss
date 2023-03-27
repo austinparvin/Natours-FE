@@ -12,7 +12,7 @@
     flex-direction: row;
     width: 100%;
 
-    a {
+    .header-link {
       background-image: linear-gradient(
         to right,
         #55C57A,
@@ -29,7 +29,7 @@
       transition: all 0.3s ease-in-out;
     }
     
-    a:before{
+    .header-link:before{
       content: '';
       background: #55C57A;
       display: block;
@@ -41,11 +41,11 @@
       transition: all 0.3s ease-in-out;
     }
     
-    a:hover {
+    .header-link:hover {
      background-position: 0;
     }
     
-    a:hover::before{
+    .header-link:hover::before{
       width: 100%;
     }
 
