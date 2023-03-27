@@ -1,8 +1,7 @@
 import { useState } from "react";
-import TourCard from "../tourCard/tourCard";
-import "./allTours.scss";
+import TourCard from "./tourCard/tourCard";
 
-const AllTours = () => {
+const Tours = () => {
   const [tours, setTours] = useState([
     { name: "test" },
     { name: "test2" },
@@ -21,4 +20,4 @@ const AllTours = () => {
   );
 };
 
-export default AllTours;
+export default Tours;

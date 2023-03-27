@@ -1,15 +1,15 @@
-import Nav from "./nav/Nav";
-import AllTours from "./allTours/AllTours";
+import Nav from "./components/nav/Nav";
+import Tours from "./components/Tours";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.scss";
-import Login from "./login/Login";
-import Signup from "./signup/Signup";
-import Account from "./account/Account";
+import Login from "./pages/Login";
+import Signup from "./pages/signup/Signup";
+import Account from "./pages/Account";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <AllTours />,
+    element: <Tours />,
   },
   {
     path: "/login",

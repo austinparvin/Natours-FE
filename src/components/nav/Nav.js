@@ -1,5 +1,4 @@
-import logo from "../logo-white.png";
-import "./Nav.scss";
+import logo from "../../logo-white.png";
 import Hamburger from "./hamburger/Hamburger";
 
 function Nav() {

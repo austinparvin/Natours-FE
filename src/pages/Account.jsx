@@ -1,5 +1,3 @@
-import "./Account.scss";
-
 const Account = () => {
   return (
     <div class="user-view">
