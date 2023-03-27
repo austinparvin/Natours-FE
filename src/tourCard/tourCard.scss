@@ -24,7 +24,7 @@
   position: relative;
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 83%, 0% 98%);
   clip-path: polygon(0 0, 100% 0%, 100% 83%, 0% 98%);
-  height: 22rem;
+  height: 250px;
 }
 .card__picture-overlay {
   position: absolute;
@@ -110,24 +110,24 @@
   -ms-flex-item-align: center;
   align-self: center;
 }
+
 .heading-tertiary {
-  font-size: 2.75rem;
+  font-size: 30px;
+  line-height: 60px;
   text-align: right;
   position: absolute;
-  bottom: 1rem;
-  right: 2rem;
+  bottom: -30px;
+  right: 30px;
   width: 70%;
   z-index: 1;
 }
 
-.heading-primary,
 .heading-tertiary {
   color: #fff;
   text-transform: uppercase;
   font-weight: 300;
 }
 
-.heading-primary span,
 .heading-tertiary span {
   padding: 1rem 1.5rem;
   line-height: 1;
