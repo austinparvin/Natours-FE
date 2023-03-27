@@ -15,7 +15,7 @@ function Nav() {
           <img src={logo} className="logo" alt="Natours logo" />
         </div>
         <div className="right-nav-links">
-          <a href="/">Login</a>
+          <a href="/login">Login</a>
           <a href="/">Signup</a>
         </div>
       </div>
