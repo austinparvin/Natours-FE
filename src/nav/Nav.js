@@ -16,7 +16,7 @@ function Nav() {
         </div>
         <div className="right-nav-links">
           <a href="/login">Login</a>
-          <a href="/">Signup</a>
+          <a href="/signup">Signup</a>
         </div>
       </div>
     </nav>

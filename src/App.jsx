@@ -3,6 +3,7 @@ import AllTours from "./allTours/AllTours";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.scss";
 import Login from "./login/Login";
+import Signup from "./signup/Signup";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,7 @@ const router = createBrowserRouter([
     path: "/login",
     element: <Login />,
   },
+  { path: "/signup", element: <Signup /> },
 ]);
 
 function App() {
