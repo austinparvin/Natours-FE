@@ -7,7 +7,7 @@
   top: 30px;
   left: 0px;
   
-  z-index: 1;
+  z-index: 2;
   
   -webkit-user-select: none;
   user-select: none;
@@ -39,7 +39,7 @@
   cursor: pointer;
   
   opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
+  z-index: 3; /* and place it over the hamburger */
   
   -webkit-touch-callout: none;
 }
@@ -58,7 +58,7 @@
   background: #cdcdcd;
   border-radius: 3px;
   
-  z-index: 1;
+  z-index: 2;
   
   transform-origin: 4px 0px;
   

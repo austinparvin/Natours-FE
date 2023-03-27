@@ -63,8 +63,8 @@ nav {
       .logo{
         height: 35px;
         align-self: center;
-        position: fixed; /* or absolute */
-        top: 50px;
+        position: relative; /* or absolute */
+        top: 0px;
         left: 50%;
       }
     }
