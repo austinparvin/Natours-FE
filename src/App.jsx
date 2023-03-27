@@ -2,6 +2,7 @@ import Nav from "./nav/Nav";
 import AllTours from "./allTours/AllTours";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.scss";
+import Login from "./login/Login";
 
 const router = createBrowserRouter([
   {
@@ -10,7 +11,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/login",
-    element: <p>login</p>,
+    element: <Login />,
   },
 ]);
 
