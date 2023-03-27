@@ -4,12 +4,12 @@ import Hamburger from "./hamburger/Hamburger";
 
 function Nav() {
   return (
-    <nav>
+    <nav className="top-nav">
       <Hamburger className="hamburger" />
       <div className="header-links">
         <div className="left-nav-links">
           <a href="/">All Tours</a>
-          <a href="/">My Tours</a>
+          <a href="/me">My Tours</a>
         </div>
         <div className="nav-logo">
           <img src={logo} className="logo" alt="Natours logo" />
